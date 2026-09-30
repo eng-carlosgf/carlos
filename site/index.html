@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[SUA MARCA] | Planilhas de Cálculo para Pré-Fabricados</title>
+<meta name="description" content="Planilhas de dimensionamento de consolos, cálices, escadas e içamento de pilares pré-fabricados, conforme NBR 9062 e NBR 6118.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1720;--card:#16212d;--txt:#e8eef4;--mut:#9fb0c0;--acc:#f28c28;--line:#26364a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:rgba(15,23,32,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:9}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-weight:800;letter-spacing:.5px;font-size:1.2rem}.logo span{color:var(--acc)}
+.btn{display:inline-block;background:var(--acc);color:#111;font-weight:800;padding:14px 26px;border-radius:8px;text-decoration:none;transition:.2s}
+.btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.btn.sm{padding:9px 16px;font-size:.9rem}
+.hero{padding:90px 0 70px;background:linear-gradient(135deg,rgba(242,140,40,.08),transparent 60%),repeating-linear-gradient(0deg,transparent 0 39px,var(--line) 39px 40px),repeating-linear-gradient(90deg,transparent 0 39px,var(--line) 39px 40px);background-blend-mode:normal}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;max-width:760px}
+.hero h1 em{color:var(--acc);font-style:normal}
+.hero p{color:var(--mut);font-size:1.15rem;max-width:640px;margin:20px 0 32px}
+section{padding:70px 0}
+h2{font-size:clamp(1.6rem,3.5vw,2.2rem);margin-bottom:12px}
+.sub{color:var(--mut);margin-bottom:36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px}
+.card h3{margin-bottom:8px}.card p,.card li{color:var(--mut);font-size:.95rem}
+.card ul{padding-left:18px;margin-top:10px}
+.ico{font-size:2rem;margin-bottom:10px}
+.tag{display:inline-block;font-size:.75rem;background:rgba(242,140,40,.15);color:var(--acc);padding:3px 10px;border-radius:20px;margin-bottom:12px;font-weight:600}
+.alt{background:#121c26}
+.shot{aspect-ratio:16/10;border:2px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--mut);text-align:center;padding:20px}
+.price{text-align:center}
+.price .card{max-width:480px;margin:0 auto;border-color:var(--acc)}
+.price .val{font-size:2.6rem;font-weight:800;margin:10px 0}
+.price ul{text-align:left;list-style:none;padding:0;margin:20px 0}
+.price li::before{content:"✔ ";color:var(--acc)}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 22px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:600}details p{color:var(--mut);margin-top:10px}
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--mut);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between}
+.wa{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="logo">[SUA<span>MARCA</span>]</div>
+  <a class="btn sm" href="#comprar">Comprar</a>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <span class="tag">Engenharia de Pré-Fabricados</span>
+  <h1>Planilhas de cálculo para <em>elementos pré-fabricados</em>, prontas para usar</h1>
+  <p>Dimensione consolos, cálices, escadas e o içamento de pilares em minutos, com memorial de cálculo e verificações conforme NBR 9062 e NBR 6118.</p>
+  <a class="btn" href="#comprar">Quero as planilhas</a>
+</div></section>
+
+<section id="planilhas"><div class="wrap">
+  <h2>O que você recebe</h2>
+  <p class="sub">Planilhas desenvolvidas por engenheiro civil que trabalha com projetos de pré-fabricados.</p>
+  <div class="grid">
+    <div class="card"><div class="ico">📐</div><h3>Consolos</h3><p>Dimensionamento de consolos curtos e muito curtos pelo modelo biela-tirante.</p><ul><li>Tirante e armadura de costura</li><li>Verificação da biela</li><li>Ancoragem</li></ul></div>
+    <div class="card"><div class="ico">🏛️</div><h3>Cálice de fundação</h3><p>Ligação pilar-fundação por cálice, com interface lisa ou rugosa.</p><ul><li>Comprimento de embutimento</li><li>Armaduras das paredes</li><li>Verificações do colarinho</li></ul></div>
+    <div class="card"><div class="ico">🪜</div><h3>Escadas</h3><p>Dimensionamento de escadas pré-fabricadas.</p><ul><li>Esforços e armaduras</li><li>Flechas</li><li>Apoios</li></ul></div>
+    <div class="card"><div class="ico">🏗️</div><h3>Içamento de pilares</h3><p>Verificação do pilar nas fases de desforma, transporte e montagem.</p><ul><li>Posição dos pontos de içamento</li><li>Fissuração nas fases transitórias</li><li>Coeficientes dinâmicos</li></ul></div>
+  </div>
+  <p class="sub" style="margin-top:28px">➕ Novas planilhas em breve.</p>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>Por que usar</h2>
+  <div class="grid">
+    <div class="card"><h3>⏱️ Economia de tempo</h3><p>O que levaria horas à mão fica pronto em minutos.</p></div>
+    <div class="card"><h3>📘 Normas atualizadas</h3><p>Baseadas na NBR 9062 e na NBR 6118.</p></div>
+    <div class="card"><h3>🧾 Memorial de cálculo</h3><p>Resultados organizados para você revisar e anexar ao projeto.</p></div>
+    <div class="card"><h3>🔓 Cálculos abertos</h3><p>Fórmulas visíveis, sem caixa-preta. Você confere cada passo.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Veja por dentro</h2>
+  <p class="sub">Prints das planilhas funcionando.</p>
+  <div class="grid">
+    <div class="shot">[Print: consolo]</div>
+    <div class="shot">[Print: cálice]</div>
+    <div class="shot">[Print: içamento]</div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>Quem desenvolveu</h2>
+  <div class="card">
+    <h3>Eng. Carlos [SOBRENOME]</h3>
+    <p>Engenheiro civil com atuação em projeto estrutural de elementos pré-fabricados de concreto. [Complete com anos de experiência, obras, CREA etc.]</p>
+  </div>
+</div></section>
+
+<section id="comprar" class="price"><div class="wrap">
+  <h2>Pacote completo</h2>
+  <p class="sub">Acesso imediato após a compra, pela Hotmart.</p>
+  <div class="card">
+    <span class="tag">4 planilhas</span>
+    <div class="val">R$ [PREÇO]</div>
+    <ul>
+      <li>Consolos</li><li>Cálice de fundação</li><li>Escadas</li><li>Içamento de pilares</li><li>Suporte por e-mail e WhatsApp</li>
+    </ul>
+    <a class="btn" href="https://pay.hotmart.com/SEU-LINK" target="_blank" rel="noopener">Comprar agora</a>
+    <p style="color:var(--mut);font-size:.85rem;margin-top:14px">🔒 Pagamento seguro · Garantia de 7 dias</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Em qual programa as planilhas funcionam?</summary><p>Microsoft Excel (versão 2016 ou superior).</p></details>
+  <details><summary>Como recebo o material?</summary><p>Após a confirmação do pagamento, a Hotmart envia o acesso para o seu e-mail.</p></details>
+  <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia incondicional: devolvemos 100% do valor.</p></details>
+  <details><summary>Recebo atualizações?</summary><p>Sim, correções e melhorias das planilhas compradas.</p></details>
+  <details><summary>A planilha substitui o engenheiro?</summary><p>Não. É uma ferramenta de apoio, e a responsabilidade técnica continua sendo do profissional habilitado.</p></details>
+</div></section>
+
+<footer><div class="wrap">
+  <div><strong>[SUA MARCA]</strong><br>Planilhas para engenharia de pré-fabricados</div>
+  <div>📧 <a href="mailto:eng.carlosgf@gmail.com">eng.carlosgf@gmail.com</a><br>📱 <a href="https://wa.me/5545999455851">(45) 99945-5851</a></div>
+</div></footer>
+
+<a class="wa" href="https://wa.me/5545999455851?text=Ol%C3%A1!%20Tenho%20interesse%20nas%20planilhas." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+</body>
+</html>
